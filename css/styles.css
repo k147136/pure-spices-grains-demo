@@ -1572,3 +1572,250 @@ h1, h2, h3, h4, h5, h6 {
   .footer-bottom { flex-direction: column; text-align: center; }
 }
 
+
+
+/* ==========================================================================
+   PERFECT PURE SPICES FOOTER (PIXEL-PERFECT AS PER USER DESIGN)
+   ========================================================================== */
+.site-footer {
+  background-color: #1a3822 !important;
+  color: #e4ebe5 !important;
+  padding: 60px 0 25px 0 !important;
+  border-top: none !important;
+  font-family: 'Poppins', sans-serif !important;
+  position: relative !important;
+}
+
+.site-footer .container {
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
+.site-footer .footer-grid {
+  display: grid !important;
+  grid-template-columns: 1.35fr 1fr 1fr 1.25fr !important;
+  gap: 40px !important;
+  margin-bottom: 40px !important;
+  align-items: start !important;
+}
+
+.site-footer .brand-logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  text-decoration: none !important;
+  margin-bottom: 18px !important;
+}
+
+.site-footer .brand-icon {
+  width: 44px !important;
+  height: 44px !important;
+  background: #275633 !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  font-size: 1.3rem !important;
+}
+
+.site-footer .brand-text {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.site-footer .brand-title {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  line-height: 1.1 !important;
+}
+
+.site-footer .brand-tagline {
+  font-size: 0.7rem !important;
+  color: #9fe2b2 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  margin-top: 2px !important;
+}
+
+.site-footer .footer-desc {
+  font-size: 0.88rem !important;
+  color: #cfdbd1 !important;
+  line-height: 1.65 !important;
+  margin-bottom: 22px !important;
+  max-width: 320px !important;
+}
+
+.site-footer .footer-socials {
+  display: flex !important;
+  gap: 10px !important;
+}
+
+.site-footer .social-icon-btn {
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0.85rem !important;
+  transition: all 0.25s ease !important;
+}
+
+.site-footer .social-icon-btn:hover {
+  background: #c29060 !important;
+  border-color: #c29060 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+}
+
+.site-footer .footer-heading {
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+}
+
+.site-footer .footer-links {
+  list-style: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.site-footer .footer-links li a {
+  color: #cfdbd1 !important;
+  font-size: 0.9rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.site-footer .footer-links li a i {
+  font-size: 0.75rem !important;
+  color: #9fe2b2 !important;
+}
+
+.site-footer .footer-links li a:hover {
+  color: #ffffff !important;
+  transform: translateX(4px) !important;
+}
+
+.site-footer .footer-contact-item {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  font-size: 0.88rem !important;
+  color: #cfdbd1 !important;
+  margin-bottom: 14px !important;
+  line-height: 1.5 !important;
+}
+
+.site-footer .footer-contact-item i {
+  color: #d4a373 !important;
+  font-size: 1rem !important;
+  margin-top: 3px !important;
+  flex-shrink: 0 !important;
+}
+
+.site-footer .badge-tag.badge-gold {
+  background: #ffffff !important;
+  color: #8c5b2c !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  padding: 6px 14px !important;
+  border-radius: 20px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+  border: none !important;
+  margin-top: 10px !important;
+}
+
+.site-footer .badge-tag.badge-gold i {
+  color: #d4a373 !important;
+}
+
+.site-footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  padding-top: 24px !important;
+  margin-top: 20px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-size: 0.85rem !important;
+  color: #a4b8a8 !important;
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+}
+
+.site-footer .footer-badges {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.site-footer .footer-badge-icon {
+  font-size: 1.6rem !important;
+  color: #cfdbd1 !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.back-to-top {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  background: #275633 !important;
+  color: #ffffff !important;
+  border: 2px solid rgba(255,255,255,0.2) !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3) !important;
+  z-index: 99 !important;
+  transition: all 0.3s ease !important;
+}
+
+.back-to-top:hover {
+  background: #1b3d24 !important;
+  transform: translateY(-3px) !important;
+}
+
+@media (max-width: 991px) {
+  .site-footer .footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 30px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+  .site-footer .footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 14px !important;
+  }
+}
